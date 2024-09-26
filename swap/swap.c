@@ -11,8 +11,8 @@ int main()
     printf("a = %d, b = %d, c = %d\n", a, b, c);
 
     // Swap  
-    a and b
-        a = a ^ b;
+    // a and b
+    a = a ^ b;
     b = a ^ b;
     a = a ^ b;
 
@@ -27,23 +27,23 @@ int main()
     return 0;
 }
 
-// swap three variable without any extra variable: 
+// swap three variable without any extra variable:
 
 #include <stdio.h>
-int main() {
-	int a,b,c;
-	printf("Enter 1st number: ");
-	scanf("%d", &a);
-	printf("Enter 2nd number: ");
-	scanf("%d", &b);
-	printf("Enter 3rd number: ");
-	scanf("%d", &c);
-	printf("before swapping:\na = %d,\nb = %d,\nc = %d\n", a,b,c);
-	a = a + b + c;
-	b = a - b - c;
-	c = a - b - c;
-	a = a - b - c;
-	printf("after swapping:\na = %d,\nb = %d,\nc = %d", a,b,c);
+int main()
+{
+    int a, b, c;
+    printf("Enter 1st number: ");
+    scanf("%d", &a);
+    printf("Enter 2nd number: ");
+    scanf("%d", &b);
+    printf("Enter 3rd number: ");
+    scanf("%d", &c);
+    printf("before swapping:\na = %d,\nb = %d,\nc = %d\n", a, b, c);
+    a = a + b + c;
+    b = a - b - c;
+    c = a - b - c;
+    a = a - b - c;
+    printf("after swapping:\na = %d,\nb = %d,\nc = %d", a, b, c);
     return 0;
-	
 }
