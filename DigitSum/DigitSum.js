@@ -1,7 +1,7 @@
 //  Find Sum of Digit:
 
 // n = parseInt(prompt("Enter number: "))
-n = 10
+n = 123
 temp = n
 sum = 0
 while (n > 0) {
